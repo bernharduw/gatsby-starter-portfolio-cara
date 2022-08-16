@@ -16,7 +16,7 @@
     "gatsby-plugin-offline": "^2.0.0-beta.3",
     "gatsby-plugin-react-helmet": "^3.0.0-beta.3",
     "gatsby-plugin-sharp": "^2.0.0-alpha.19",
-    "gatsby-source-filesystem": "^2.0.0-alpha.15",
+    "gatsby-source-filesystem": "^4.21.0",
     "gatsby-transformer-sharp": "^2.0.1-13",
     "postcss": "^6.0.22",
     "postcss-cli": "^5.0.0",
