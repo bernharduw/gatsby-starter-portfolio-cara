@@ -1,0 +1,88 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - tailwindcss > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - babel-plugin-tailwind > tailwindcss > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - gatsby-plugin-offline > cheerio > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - postcss-cli > postcss-reporter > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - babel-plugin-tailwind > babel-literal-to-ast > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - babel-plugin-tailwind > babel-literal-to-ast > babel-traverse > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > @babel/helper-module-imports > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > @babel/helper-module-imports > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - babel-plugin-tailwind > babel-literal-to-ast > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-traverse > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-traverse > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-generator > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-generator > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-template > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-template > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-register > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-register > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - emotion > babel-plugin-emotion > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
+    - react-emotion > babel-plugin-emotion > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-07T17:15:11.594Z'
