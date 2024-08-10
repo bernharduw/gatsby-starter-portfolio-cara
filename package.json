@@ -13,7 +13,7 @@
     "gatsby-plugin-emotion": "^2.0.0-beta.2",
     "gatsby-plugin-manifest": "^2.0.2-beta.2",
     "gatsby-plugin-netlify": "^2.0.0-beta.2",
-    "gatsby-plugin-offline": "^2.0.0-beta.3",
+    "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0-beta.3",
     "gatsby-plugin-sharp": "^2.0.0-alpha.19",
     "gatsby-source-filesystem": "^2.0.0-alpha.15",
